@@ -1,10 +1,10 @@
 # csci451-project
 
-##Abstract
+## Abstract
 
 Deep learning image classification models have shown promise in identifying diseases through Chest X-rays. However, a series of results have also shown that with considerable accuracy, it is possible to determine the self-reported ethnicity of the patient. We aim to reproduce these results and outline the ethical concerns this poses both in terms of phrenology and the privacy of the patient.
 
-##Motivation and Question
+## Motivation and Question
 
 We aim to use the publicly available ChexPert (https://stanfordmlgroup.github.io/competitions/chexpert/) database, which consists of 224,316 chest radiographs of 65,240 patients from Stanford Hospital, collected between October 2002 and July 2017. The data is mainly intended for classifying a variety of chest diseases, for which radiologists have provided separate annotations. This includes the self-reported age, gender, and ethnicity of the patient.
 
@@ -26,3 +26,11 @@ If things don't 100% work out, we at least tried and I think that's great. Our d
 ## Resources Required
 
 We need chest X-ray datasets that include the race of the patient. Right now we're considering using data from [here](https://stanfordaimi.azurewebsites.net/datasets/192ada7c-4d43-466e-b8bb-b81992bb80cf). This has a .csv file with race labels for the patients in study 1. We're still looking for more data because knowledge is power.
+
+## What you will Learn
+
+Jay-U: I hope to learn about how to implement image classification algorithms with deep learning. Part of this will include learning about the different packages and algorithms available. I also hope to learn more about ways to identify algorithmic bias - the paper we have exposits this, and we should also do our own research on medical ethics. Being able to work in a team will also be important since I generally have worked alone in past classes.
+
+## Tentative Timeline
+
+By week 9 we should have our data and should have visualizations of the demographics of the data and some explanations of the chest radiographs. It would be good if we have decided on a deep learning package to use (PyTorch could be good, they also have a X-ray learning package)
