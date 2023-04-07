@@ -14,7 +14,6 @@ We want to see if it is possible to reproduce their results for ethnicity classi
 
 We also want to investigate the ethical concerns with creating an algorithm that can identify the race of the patient. For one, we want to discuss its implications for other medical imaging algorithms. Furthermore, a concern is that it may support racial determinism, the belief that race is a key factor in ones phenotypic abilities. To this end, we will discuss the paper's own investigations into the reasons why the algorithm can detect race as well as finding other papers on the impacts of racial determinism. Another concern we may investigate is de-anonymization. While we will not try to de-anonymize the data, it may be worthwhile discussing the impacts that having this information on age, gender, and ethnicity can have on revealing a patient's identity.
 
-
 ## Planned Deliverables
 
 We plan to create a model that can predict a person's race based on the image of their chest X-ray. We will also include a Jupyter notebook that demonstrates the efficacy of this model.
@@ -39,8 +38,8 @@ We need chest X-ray datasets that include the race of the patient. Right now we'
 
 Jay-U: I hope to learn about how to implement image classification algorithms with deep learning. Part of this will include learning about the different packages and algorithms available. I also hope to learn more about ways to identify algorithmic bias - the paper we have exposits this, and we should also do our own research on medical ethics. Being able to work in a team will also be important since I generally have worked alone in past classes.
 
-Kent: 
+Kent: For this project, I hope to more adept in version control in group settings. Also, I want to dive into the implementation of image classification and exploration of algorithmic bias. It's important to critically analyze the history of race as a factor used to identify individuals based off medical images and its motivations.
 
 ## Tentative Timeline
 
-By week 9 we should have our data and should have visualizations of the demographics of the data and some explanations of the chest radiographs. It would be good if we have decided on a deep learning package to use (PyTorch could be good, they also have a X-ray learning package)
+By week 9, we should have our data and should have visualizations of the demographics of the data and some explanations of the chest radiographs. It would be good if we have decided on a deep learning package to use (PyTorch could be good, they also have a X-ray learning package)
