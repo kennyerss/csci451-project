@@ -23,6 +23,14 @@ If everything works out as planned, we will have a great predictive model and a 
 
 If things don't 100% work out, we at least tried and I think that's great. Our deliverables will be a Python package and a Jupyter notebook explaining exactly why we fail: there may not be enough data; the rib cages of people from different ethnic backgrounds may not look very different (we may need to look for research papers on this); etc. We can also badmouth the model in this Jupyter notebook to justify that failing may actually be a good thing (the model can become evil if it falls into the wrong hands, etc.).
 
+## Risk Statement
+
+Two things that could keep us from achieving the full deliverable above is a lack of data to the xray images and ethnicity classification and a lack of pattern that we initially thought when classifying different ethnicies based off x-ray images. It might be important to acknowledge that we don't have a clear goal of what features are important to look for, so when or if our model does classify ethnicities based off x-ray images, those features may not have any clear meaning to what actually differentiates the physical bodies of different races.
+
+## Ethics Statement
+
+Potential ethical implications to this project stems from the racially charged motivations from phrenology as a medium to justify the hierachies in races, slavery, and racist discourse. Thus, groups of people who have the potential to benefit from this project are medical professionals who can use this model to further analyze race and ethnicities as a factor in predicting for diseases; one consequence of this action is the violation of privacy and use of demographic data to assess the presence of medical conditions. On the other hand, groups of people who may be harmed are the historically minoritized people of color whose vulnerabilities to medical processes and professionals can be abused and taken advantage of. Concluding this project can both have a negative and positive impact to the world. For instance, findings regarding a medical condition to certain ethnicities may further scientific literature to provide the necessary aid to prevent certain conditions for groups of ethnicities. However, the addition of race and ethnicity as a factor to the classification of x-ray images can be also used in other applications to negatively place racist boundaries on the basis of the body and bone structures.
+
 ## Resources Required
 
 We need chest X-ray datasets that include the race of the patient. Right now we're considering using data from [here](https://stanfordaimi.azurewebsites.net/datasets/192ada7c-4d43-466e-b8bb-b81992bb80cf). This has a .csv file with race labels for the patients in study 1. We're still looking for more data because knowledge is power.
@@ -30,6 +38,8 @@ We need chest X-ray datasets that include the race of the patient. Right now we'
 ## What you will Learn
 
 Jay-U: I hope to learn about how to implement image classification algorithms with deep learning. Part of this will include learning about the different packages and algorithms available. I also hope to learn more about ways to identify algorithmic bias - the paper we have exposits this, and we should also do our own research on medical ethics. Being able to work in a team will also be important since I generally have worked alone in past classes.
+
+Kent: 
 
 ## Tentative Timeline
 
