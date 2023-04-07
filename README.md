@@ -1,5 +1,19 @@
 # csci451-project
 
+##Abstract
+
+Deep learning image classification models have shown promise in identifying diseases through Chest X-rays. However, a series of results have also shown that with considerable accuracy, it is possible to determine the self-reported ethnicity of the patient. We aim to reproduce these results and outline the ethical concerns this poses both in terms of phrenology and the privacy of the patient.
+
+##Motivation and Question
+
+We aim to use the publicly available ChexPert (https://stanfordmlgroup.github.io/competitions/chexpert/) database, which consists of 224,316 chest radiographs of 65,240 patients from Stanford Hospital, collected between October 2002 and July 2017. The data is mainly intended for classifying a variety of chest diseases, for which radiologists have provided separate annotations. This includes the self-reported age, gender, and ethnicity of the patient.
+
+However, papers as "AI recognition of patient race in medical imaging: a modelling study" by Gichoya et. al (https://www.thelancet.com/journals/landig/article/PIIS2589-7500(22)00063-2/fulltext) have used the Chexpert dataset (along with other public and private chest radiographs) to accurately determine the self-reported age, gender, and ethnicity of the patient. That ethnicity can be detected is especially concerning as it may indicate that ML models for medical imaging classification can use race to make predictions. As they note, this could perpetuate existing inequalities in medical care for minority groups.
+
+We want to see if it is possible to reproduce their results for ethnicity classification. The data they use, unsurprisingly, is a majority White, so we want to investigate whether our algorithm shows any bias in its classifications.
+
+We also want to investigate the ethical concerns with creating an algorithm that can identify the race of the patient. For one, we want to discuss its implications for other medical imaging algorithms. Furthermore, a concern is that it may support racial determinism, the belief that race is a key factor in ones phenotypic abilities. To this end, we will discuss the paper's own investigations into the reasons why the algorithm can detect race as well as finding other papers on the impacts of racial determinism. Another concern we may investigate is de-anonymization. While we will not try to de-anonymize the data, it may be worthwhile discussing the impacts that having this information on age, gender, and ethnicity can have on revealing a patient's identity.
+
 
 ## Planned Deliverables
 
