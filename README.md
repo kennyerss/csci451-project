@@ -16,11 +16,11 @@ We also want to investigate the ethical concerns with creating an algorithm that
 
 ## Planned Deliverables
 
-We plan to create a model that can predict a person's race based on the image of their chest X-ray. We will also include a Jupyter notebook that demonstrates the efficacy of this model.
+We plan to create a model that can predict a person's race based on the image of their chest X-ray, a Jupyter notebook that demonstrates the efficacy of this model, and a discussion of the ethical ambiguity of this model.
 
-If everything works out as planned, we will have a great predictive model and a beautiful analysis of its efficacy in a Jupyter notebook. We will also have a chance to analyze the factors that contribute to the model's accuracy; we can look at the most interesting features and the potential biases that may be present in the data. We can start to think about how this model can be used (ethically) in a clinical setting (does this help with diagnosis at all? etc.).
+If everything works out as planned, we will have an image classification model that works to high accuracy and a beautiful analysis of its efficacy in a Jupyter notebook. We will also have a chance to analyze the factors that contribute to the model's accuracy; we can look at the most interesting features and the potential biases that may be present in the data. We will attempt to answer ethical questions posed by the success of this classification model: whether people of different races have different bone structures and what this difference may mean; whether this model can be used in a clinical setting, who it can benefit, who it can destroy, and how.
 
-If things don't 100% work out, we at least tried and I think that's great. Our deliverables will be a Python package and a Jupyter notebook explaining exactly why we fail: there may not be enough data; the rib cages of people from different ethnic backgrounds may not look very different (we may need to look for research papers on this); etc. We can also badmouth the model in this Jupyter notebook to justify that failing may actually be a good thing (the model can become evil if it falls into the wrong hands, etc.).
+If things don't 100% work out, we at least tried and I think that's great. Our deliverables will contain a Python package containing our own code up to the point where things stop working. In the Jupyter notebook, we will use a preexisting package (e.g the one from the paper, or some other one) to show how close our model is to the 'ideal' in terms of efficacy. We will also explain exactly why we fail: there may not be enough data; the rib cages of people from different ethnic backgrounds may not look very different (we may need to look for research papers on this); etc. The ethics research will look roughly the same as in the case that we actually succeed. The only difference will be an additional section where we say that our failure is probably a good thing due to the evils that this model is capable of.
 
 ## Risk Statement
 
@@ -34,11 +34,15 @@ Potential ethical implications to this project stems from the racially charged m
 
 We need chest X-ray datasets that include the race of the patient. Right now we're considering using data from [here](https://stanfordaimi.azurewebsites.net/datasets/192ada7c-4d43-466e-b8bb-b81992bb80cf). This has a .csv file with race labels for the patients in study 1. We're still looking for more data because knowledge is power.
 
+As for algorithms, we may use `K-means` for image classification. `PyTorch` could be good, as they also have a X-ray learning package.
+
 ## What you will Learn
 
 Jay-U: I hope to learn about how to implement image classification algorithms with deep learning. Part of this will include learning about the different packages and algorithms available. I also hope to learn more about ways to identify algorithmic bias - the paper we have exposits this, and we should also do our own research on medical ethics. Being able to work in a team will also be important since I generally have worked alone in past classes.
 
 Kent: For this project, I hope to more adept in version control in group settings. Also, I want to dive into the implementation of image classification and exploration of algorithmic bias. It's important to critically analyze the history of race as a factor used to identify individuals based off medical images and its motivations.
+
+Trong: I will learn to use image classification algorithms and to avoid bias in the training process. I will also learn from research papers about what race means in a medical setting.
 
 ## Tentative Timeline
 
