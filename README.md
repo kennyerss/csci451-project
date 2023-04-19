@@ -1,4 +1,4 @@
-# csci451-project
+# Image Classification of X-Rays to Predict Ethnicity/Race
 
 ## Abstract
 
