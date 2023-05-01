@@ -9,6 +9,8 @@ Algorithm
 * Implement ResNet https://blog.paperspace.com/writing-resnet-from-scratch-in-pytorch/ or https://www.run.ai/guides/deep-learning-for-computer-vision/pytorch-resnet OR find other algorithm we can implement
 * Use pretrained EfficientNet and maybe do a self-implementation
 * Do optimization of parameters - for now optimize learning rate, try learning rate schedules (which will change learning rate over time)
+* * Experiment with optimizing hyperparameters - like learning rate most importantly, batch_sizes, number of epochs, weight function for loss
+* Add weight function for loss so even with uneven dataset we can achieve better accuracy on all populations
 * Try doing image augmentation - random horizontal flips, random rotations (because some patients might be standing upright at slightly different angles), blurs/zooms
 * Analysis wise, could be interesting to do intersectional bias - black women, etc.
 
